@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Weather Tests">
+    <test name="Backend">
+        <packages>
+            <package name="backend.sunnyTests*"/>
+            <package name="backend.rainyTests*"/>
+        </packages>
+    </test>
+</suite>
